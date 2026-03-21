@@ -1,30 +1,24 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Data / logs
-logs/
-*.csv
+node_modules
+dist
+dist-ssr
+*.local
 
-# Models
-models/*.pkl
-
-# MLflow
-mlruns/
-
-# Env
-.env
-venv/
-.venv/
-
-# Node
-node_modules/
-frontend/node_modules/
-
-# Build
-frontend/dist/
-
-# OS
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
