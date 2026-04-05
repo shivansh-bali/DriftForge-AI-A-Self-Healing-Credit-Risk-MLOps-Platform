@@ -1,4 +1,4 @@
 {
-  "production_model": "model_v1.pkl",
-  "latest_version": 1
+    "production_model": "model_v2.pkl",
+    "latest_version": 2
 }
