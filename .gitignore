@@ -28,3 +28,8 @@ frontend/dist/
 # OS
 .DS_Store
 Thumbs.db
+
+# Exclude non-core HTML (templates/static assets) from GitHub's language stats
+templates/**/*.html linguist-documentation=true
+static/**/*.html linguist-documentation=true
+*.html linguist-documentation=true
